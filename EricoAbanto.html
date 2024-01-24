@@ -1,116 +1,119 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="laboratory, 02.HTML Exercises">
-    <title>02.HTML Exercises</title>
-    <style>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="laboratory, 02.HTML Exercises">
+        <title>02.HTML Exercises</title>
+        <style>
 
-        body {
-            background-color: beige;
-        }
-        table{
-            border-collapse: collapse;
-            border: 1px solid black;
-            background-color:  white;
-            font-size: 15px;
-            font-family: Arial, Helvetica, sans-serif;
+            body {
+                background-color: beige;
+            }
+            table{
+                border-collapse: collapse;
+                border: 1px solid black;
+                background-color:  white;
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
 
-        }  
-        th{
-            background-color: #0f2510;
-            color: white;
-            padding: 8px;
-            text-align: center;
-            border: 1px solid black;
+            }  
+            th{
+                background-color: #0f2510;
+                color: white;
+                padding: 8px;
+                text-align: center;
+                border: 1px solid black;
 
-        }   
-        td{
-            padding: 8px;
-            text-align: center;
-            border: 1px solid black;
+            }   
+            td{
+                padding: 8px;
+                text-align: center;
+                border: 1px solid black;
 
-        }
-    </style>
-</head>
+            }
+        </style>
+    </head>
 
-<body>
-    <header>
-        <h1>Abanto Erico</h1>
-    </header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <section id="home">
-            <h1>Home</h1>
-            <figure>
-                <img src="https://marketplace.canva.com/EAE1VRwpe3E/1/0/1600w/canva-pink-glitter-welcome-facebook-cover-page-Vh6qjqUMJK0.jpg" width="600" height="300">
-            </figure>
+    <body>
+        <header>
+            <h1>Abanto Erico</h1>
+        </header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <section id="home">
+                <h1>Home</h1>
+                <figure>
+                    
+                        
+                </figure>
 
-            <h1>Form</h1>
-                <form>
-                    <label for="Name">Name: </label>
-                    <input type="text" id="Name" name="required">
+                <h1>Main Heading</h1>
+                    <form>
+                        <label for="Name">Name: </label>
+                        <input type="text" id="Name" name="required">
 
-                    <label for="password">password: </label>
-                    <input type="text" id="password" required minlength="8">
-                    <br>
-                    <label>Gender: </label>
-                    <label for="male"> Male </label>
-                    <input type="radio" id ="male" name="gender" value="male">
-                    <input for="female"> Female </label> 
-                    <input type="radio" id="female" name="gender" value="female">
-                    <br>
-                    <label for="terns" >Accept terms and Conditoins</label> 
-                    <input type="checkbox" id="terms" name="terms" required>
-                    <br>
-                    <button type="submit">Submit</button>
-                </form>
+                        <label for="password">password: </label>
+                        <input type="text" id="password" required minlength="8">
+                        <br>
+                        <label>Gender: </label>
+                        <label for="male"> Male </label>
+                        <input type="radio" id ="male" name="gender" value="male">
+                        <label for="female"> Female </label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <br>
+                        <label for="terns" >"terms"</label> 
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <br>
+                        <button type="submit">Submit</button>
+                    </form>
 
-                <h1>Table</h1>
-                <table style="width: 200px">
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Age</th>
-                        <th>City</th>
-                    </tr>
-                </Thead>
-                    <tbody>
-                        <td>Russel</td>
-                        <td>21</td>
-                        <td>Tarlac</td>
-                    </tbody>
+                    <h1>Main Heading</h1>
+                    <table style="width: 200px">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>City</th>
+                        </tr>
+                    </Thead>
+                        <tbody>
+                         <tr>
+                            <td>Russel</td>
+                            <td>21</td>
+                            <td>Tarlac</td>
+                        </tbody>
 
-                    <tbody>
-                        <td>miko</td>
-                        <td>20</td>
-                        <td>Isabela</td>
-                    </tbody>
-                </table>
+                        <tbody>
+                            <tr>
+                            <td>miko</td>
+                            <td>20</td>
+                            <td>Isabela</td>
+                        </tbody>
+                    </table>
 
-                <h1>Video</h1>
-                <video width="640" height="360" controls>
-                    <source src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/5eeea355389655.59822ff824b72.gif" type="video/mp4">
-                </video>
+                    <h1>Home</h1>
+                    <video width="640" height="360" controls>
+                       
+                    </video>
 
-                <h1>Audio</h1>
-                <audio controls>
-                    <source src="https://www.youtube.com/watch?v=qJcfMeAeZAQ" type="audio/ mp3">
-                </audio>
+                    <h1>Audio</h1>
+                    <audio controls>
+                       
+                    </audio>
 
 
 
-        </section>
-        <br>
-        <footer>
-            &copy: developed by Erico Abanto - 01/21/2024
-        </footer>
-    
-</body>
-</html>
+            </section>
+            <br>
+            <footer>
+                &copy: developed by 
+            </footer>
+        
+    </body>
+    </html>
