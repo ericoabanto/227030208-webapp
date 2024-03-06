@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;}
+
+    h1 {
+      text-align: center;
+      color: #1e90ff;
+    }
+
+    h2 {
+      margin-top: 30px;
+      color: #2e8b57;
+    }
+
+    p {
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    center {
+      text-align: center;
+    }
+
+    section {
+      background-color: #b7e9e3;
+      padding: 40px;
+      margin: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
